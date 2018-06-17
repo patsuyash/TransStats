@@ -1,0 +1,9 @@
+logging:
+  level:
+    ROOT: INFO
+spring:
+  application:
+    name: TransStats
+  jackson.serialization.write-dates-as-timestamps: false
+timeSpanInMs: 60000
+clearTimeSpanInMs: 10000
